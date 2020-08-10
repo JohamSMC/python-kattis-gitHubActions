@@ -1,7 +1,7 @@
 import unittest
 import os
 import subprocess
-from problems import *
+from problems import carrots
 
 class TestCarrots(unittest.TestCase):    
     def test_carrots(self):
