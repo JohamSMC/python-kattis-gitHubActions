@@ -1,4 +1,4 @@
-# Problems developed in python of the kattis platform and gitHubActions for tests
+# Problems developed in python of the [kattis](https://open.kattis.com/problems?order=problem_difficulty) platform and gitHubActions for tests
 
 [![GitHub User](https://img.shields.io/badge/GitHub-JohamSMC-red?style=plastic&logo=github&link=https://github.com/JohamSMC)](https://github.com/JohamSMC)
 
