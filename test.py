@@ -42,5 +42,16 @@ class TestCarrots(unittest.TestCase):
 		output = subprocess.check_output("python problems/qaly.py < inputs/inputQaly1.txt", shell=True)
 		self.assertEqual(str(output).split("'")[1].split("\\n")[0], "41.470")
 
+	def test_pot(self):
+		import problems.pot
+		output = subprocess.check_output("python problems/pot.py < inputs/inputPot1.txt", shell=True)
+		self.assertEqual(str(output).split("'")[1].split("\\n")[0], "1953566")
+
+		output = subprocess.check_output("python problems/pot.py < inputs/inputPot2.txt", shell=True)
+		self.assertEqual(str(output).split("'")[1].split("\\n")[0], "102")
+
+		output = subprocess.check_output("python problems/pot.py < inputs/inputPot3.txt", shell=True)
+		self.assertEqual(str(output).split("'")[1].split("\\n")[0], "10385")
+
 if __name__ == "__main__":
 	unittest.main()
