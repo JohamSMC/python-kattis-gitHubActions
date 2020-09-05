@@ -1,3 +1,4 @@
+from tokenize import Double
 import unittest
 import os
 import subprocess
@@ -35,6 +36,11 @@ class TestCarrots(unittest.TestCase):
 
 		output = subprocess.check_output("python problems/r2.py < inputs/inputR2-2.txt", shell=True)
 		self.assertEqual(int(str(output).split("'")[1].split("\\n")[0]), 2)
+
+	def test_qaly(self):
+		import problems.qaly
+		output = subprocess.check_output("python problems/qaly.py < inputs/inputQaly1.txt", shell=True)
+		self.assertEqual(str(output).split("'")[1].split("\\n")[0], "41.470")
 
 if __name__ == "__main__":
 	unittest.main()
