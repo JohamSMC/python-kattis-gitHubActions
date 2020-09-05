@@ -8,3 +8,6 @@
 | Hello World!  	          | [hello.py](https://github.com/JohamSMC/python-kattis-gitHubActions/blob/master/problems/hello.py) 	              | 1.2        	|
 | Solving for Carrots       | [carrots.py](https://github.com/JohamSMC/python-kattis-gitHubActions/blob/master/problems/carrots.py)             | 1.3         |
 | Take Two Stones	          | [twostones.py](https://github.com/JohamSMC/python-kattis-gitHubActions/blob/master/problems/twostones.py)         | 1.3         |                                                                                                      
+| R2            	          | [r2.py](https://github.com/JohamSMC/python-kattis-gitHubActions/blob/master/problems/r2.py)                       | 1.3         |
+| Quality-Adjusted Life-Year| [qaly.py](https://github.com/JohamSMC/python-kattis-gitHubActions/blob/master/problems/qaly.py)                   | 1.3         |
+| Pot                       | [pot.py](https://github.com/JohamSMC/python-kattis-gitHubActions/blob/master/problems/pot.py)                     | 1.3         |
