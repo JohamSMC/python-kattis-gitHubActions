@@ -53,5 +53,13 @@ class TestCarrots(unittest.TestCase):
 		output = subprocess.check_output("python problems/pot.py < inputs/inputPot3.txt", shell=True)
 		self.assertEqual(str(output).split("'")[1].split("\\n")[0], "10385")
 
+	def test_skener(self):
+		import problems.skener
+		output = subprocess.check_output("python problems/skener.py < inputs/inputSkener1.txt", shell=True)
+		self.assertEqual(str(output).split("'")[1].split("\\n"), ["..xx..","xx..xx","..xx..",''])
+
+		output = subprocess.check_output("python problems/skener.py < inputs/inputSkener2.txt", shell=True)
+		self.assertEqual(str(output).split("'")[1].split("\\n"), [".x.",".x.","x.x","x.x",".x.",".x.",''])
+
 if __name__ == "__main__":
 	unittest.main()
