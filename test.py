@@ -61,5 +61,16 @@ class TestCarrots(unittest.TestCase):
 		output = subprocess.check_output("python problems/skener.py < inputs/inputSkener2.txt", shell=True)
 		self.assertEqual(str(output).split("'")[1].split("\\n"), [".x.",".x.","x.x","x.x",".x.",".x.",''])
 
+	def test_herman(self):
+		import problems.herman
+		output = subprocess.check_output("python problems/herman.py < inputs/input1Herman.txt", shell=True)
+		self.assertEqual(str(output).split("'")[1].split("\\n"), ["3.141593","2.000000",''])
+
+		output = subprocess.check_output("python problems/herman.py < inputs/input2Herman.txt", shell=True)
+		self.assertEqual(str(output).split("'")[1].split("\\n"), ["1385.442360","882.000000",''])
+
+		output = subprocess.check_output("python problems/herman.py < inputs/input3Herman.txt", shell=True)
+		self.assertEqual(str(output).split("'")[1].split("\\n"), ["5541.769441","3528.000000",''])
+
 if __name__ == "__main__":
 	unittest.main()
