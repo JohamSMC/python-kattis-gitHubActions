@@ -11,5 +11,6 @@
 | R2            	          | [r2.py](https://github.com/JohamSMC/python-kattis-gitHubActions/blob/master/problems/r2.py)                       | 1.3         |
 | Quality-Adjusted Life-Year| [qaly.py](https://github.com/JohamSMC/python-kattis-gitHubActions/blob/master/problems/qaly.py)                   | 1.3         |
 | Pot                       | [pot.py](https://github.com/JohamSMC/python-kattis-gitHubActions/blob/master/problems/pot.py)                     | 1.3         |
+| Kemija08                  | [kemija08.py](https://github.com/JohamSMC/python-kattis-gitHubActions/blob/master/problems/kemija08.py)           | 1.4         |
 | Skener                    | [skener.py](https://github.com/JohamSMC/python-kattis-gitHubActions/blob/master/problems/skener.py)               | 1.5         |
 | Herman                    | [herman.py](https://github.com/JohamSMC/python-kattis-gitHubActions/blob/master/problems/herman.py)               | 1.5         |
