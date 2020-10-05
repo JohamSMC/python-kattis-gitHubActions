@@ -72,5 +72,13 @@ class TestCarrots(unittest.TestCase):
 		output = subprocess.check_output("python problems/herman.py < inputs/input3Herman.txt", shell=True)
 		self.assertEqual(str(output).split("'")[1].split("\\n"), ["5541.769441","3528.000000",''])
 
+	def test_kejima08(self):
+		import problems.kemija08
+		output = subprocess.check_output("python problems/kemija08.py < inputs/inputKejima08-1.txt", shell=True)
+		self.assertEqual(str(output).split("'")[1].split("\\n"), ["zelena paprika",''])
+
+		output = subprocess.check_output("python problems/kemija08.py < inputs/inputKejima08-2.txt", shell=True)
+		self.assertEqual(str(output).split("'")[1].split("\\n"), ["bas je dosadna ova kemija",''])
+
 if __name__ == "__main__":
 	unittest.main()
