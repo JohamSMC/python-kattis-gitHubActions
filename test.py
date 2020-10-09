@@ -112,5 +112,13 @@ class TestCarrots(unittest.TestCase):
 		output = subprocess.check_output("python problems/apaxiaaans.py < inputs/inputApaxiaaans3.txt", shell=True)
 		self.assertEqual(str(output).split("'")[1].split("\\n"), ["robertapalaxios",''])
 
+	def test_areal(self):
+		import problems.areal
+		output = subprocess.check_output("python problems/areal.py < inputs/inputAreal1.txt", shell=True)
+		self.assertEqual(str(output).split("'")[1].split("\\n"), ["16.00000000",''])
+
+		output = subprocess.check_output("python problems/areal.py < inputs/inputAreal2.txt", shell=True)
+		self.assertEqual(str(output).split("'")[1].split("\\n"), ["8.94427191",''])
+
 if __name__ == "__main__":
 	unittest.main()
