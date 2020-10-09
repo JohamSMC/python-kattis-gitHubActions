@@ -101,5 +101,16 @@ class TestCarrots(unittest.TestCase):
 		output = subprocess.check_output("python problems/aboveaverage.py < inputs/inputAboveaverage1.txt", shell=True)
 		self.assertEqual(str(output).split("'")[1].split("\\n"), ["40.000%","57.143%","33.333%",'66.667%','55.556%',''])
 
+	def test_apaxiaaans(self):
+		import problems.apaxiaaans
+		output = subprocess.check_output("python problems/apaxiaaans.py < inputs/inputApaxiaaans1.txt", shell=True)
+		self.assertEqual(str(output).split("'")[1].split("\\n"), ["robert",''])
+
+		output = subprocess.check_output("python problems/apaxiaaans.py < inputs/inputApaxiaaans2.txt", shell=True)
+		self.assertEqual(str(output).split("'")[1].split("\\n"), ["robert",''])
+
+		output = subprocess.check_output("python problems/apaxiaaans.py < inputs/inputApaxiaaans3.txt", shell=True)
+		self.assertEqual(str(output).split("'")[1].split("\\n"), ["robertapalaxios",''])
+
 if __name__ == "__main__":
 	unittest.main()
