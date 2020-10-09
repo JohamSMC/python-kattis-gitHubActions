@@ -134,5 +134,10 @@ class TestCarrots(unittest.TestCase):
 		output = subprocess.check_output("python problems/arithmetic.py < inputs/inputArithmetic4.txt", shell=True)
 		self.assertEqual(str(output).split("'")[1].split("\\n"), ["FAC688053977",''])
 
+	def test_armystrengtheasy(self):
+		import problems.armystrengtheasy
+		output = subprocess.check_output("python problems/armystrengtheasy.py < inputs/inputArmystrengtheasy1.txt", shell=True)
+		self.assertEqual(str(output).split("'")[1].split("\\n"), ["Godzilla", "MechaGodzilla", ''])
+
 if __name__ == "__main__":
 	unittest.main()
