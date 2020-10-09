@@ -96,5 +96,10 @@ class TestCarrots(unittest.TestCase):
 		output = subprocess.check_output("python problems/abc.py < inputs/inputAbc2.txt", shell=True)
 		self.assertEqual(str(output).split("'")[1].split("\\n"), ["6","2","4",''])
 
+	def test_aboveaverage(self):
+		import problems.aboveaverage
+		output = subprocess.check_output("python problems/aboveaverage.py < inputs/inputAboveaverage1.txt", shell=True)
+		self.assertEqual(str(output).split("'")[1].split("\\n"), ["40.000%","57.143%","33.333%",'66.667%','55.556%',''])
+
 if __name__ == "__main__":
 	unittest.main()
