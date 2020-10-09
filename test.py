@@ -120,5 +120,19 @@ class TestCarrots(unittest.TestCase):
 		output = subprocess.check_output("python problems/areal.py < inputs/inputAreal2.txt", shell=True)
 		self.assertEqual(str(output).split("'")[1].split("\\n"), ["8.94427191",''])
 
+	def test_arithmetic(self):
+		import problems.arithmetic
+		output = subprocess.check_output("python problems/arithmetic.py < inputs/inputArithmetic1.txt", shell=True)
+		self.assertEqual(str(output).split("'")[1].split("\\n"), ["924",''])
+
+		output = subprocess.check_output("python problems/arithmetic.py < inputs/inputArithmetic2.txt", shell=True)
+		self.assertEqual(str(output).split("'")[1].split("\\n"), ["10",''])
+
+		output = subprocess.check_output("python problems/arithmetic.py < inputs/inputArithmetic3.txt", shell=True)
+		self.assertEqual(str(output).split("'")[1].split("\\n"), ["689",''])
+
+		output = subprocess.check_output("python problems/arithmetic.py < inputs/inputArithmetic4.txt", shell=True)
+		self.assertEqual(str(output).split("'")[1].split("\\n"), ["FAC688053977",''])
+
 if __name__ == "__main__":
 	unittest.main()
