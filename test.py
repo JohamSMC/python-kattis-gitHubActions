@@ -226,5 +226,10 @@ class TestCarrots(unittest.TestCase):
 		output = subprocess.check_output("python problems/lastfactorialdigit.py < inputs/inputLastfactorialdigit2.txt", shell=True)
 		self.assertEqual(str(output).split("'")[1].split("\\n"), ["0", "2", ''])
 
+	def test_oddities(self):
+		import problems.oddities
+		output = subprocess.check_output("python problems/oddities.py < inputs/inputOddities1.txt", shell=True)
+		self.assertEqual(str(output).split("'")[1].split("\\n"), ["10 is even", "9 is odd", "-5 is odd", ''])
+
 if __name__ == "__main__":
 	unittest.main()
