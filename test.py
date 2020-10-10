@@ -236,5 +236,13 @@ class TestCarrots(unittest.TestCase):
 		output = subprocess.check_output("python problems/oddmanout.py < inputs/inputOddmanout1.txt", shell=True)
 		self.assertEqual(str(output).split("'")[1].split("\\n"), ["Case #1: 1", "Case #2: 7", "Case #3: 5", ''])
 
+	def test_pet(self):
+		import problems.pet
+		output = subprocess.check_output("python problems/pet.py < inputs/inputPet1.txt", shell=True)
+		self.assertEqual(str(output).split("'")[1].split("\\n")[0], "4 19")
+
+		output = subprocess.check_output("python problems/pet.py < inputs/inputPet2.txt", shell=True)
+		self.assertEqual(str(output).split("'")[1].split("\\n")[0], "2 17")
+
 if __name__ == "__main__":
 	unittest.main()
