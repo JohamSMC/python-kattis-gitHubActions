@@ -201,11 +201,22 @@ class TestCarrots(unittest.TestCase):
 		output = subprocess.check_output("python problems/filip.py < inputs/inputFilip1.txt", shell=True)
 		self.assertEqual(str(output).split("'")[1].split("\\n")[0], "437")
 
-		output = subprocess.check_output("python problems/filip.py < inputs/inputFilip1.txt", shell=True)
+		output = subprocess.check_output("python problems/filip.py < inputs/inputFilip2.txt", shell=True)
 		self.assertEqual(str(output).split("'")[1].split("\\n")[0], "132")
 
-		output = subprocess.check_output("python problems/filip.py < inputs/inputFilip1.txt", shell=True)
+		output = subprocess.check_output("python problems/filip.py < inputs/inputFilip3.txt", shell=True)
 		self.assertEqual(str(output).split("'")[1].split("\\n")[0], "938")
+
+	def test_hissingmicrophone(self):
+		import problems.hissingmicrophone
+		output = subprocess.check_output("python problems/hissingmicrophone.py < inputs/inputHissingmicrophone1.txt", shell=True)
+		self.assertEqual(str(output).split("'")[1].split("\\n")[0], "hiss")
+
+		output = subprocess.check_output("python problems/hissingmicrophone.py < inputs/inputHissingmicrophone2.txt", shell=True)
+		self.assertEqual(str(output).split("'")[1].split("\\n")[0], "no hiss")
+
+		output = subprocess.check_output("python problems/hissingmicrophone.py < inputs/inputHissingmicrophone3.txt", shell=True)
+		self.assertEqual(str(output).split("'")[1].split("\\n")[0], "hiss")
 
 if __name__ == "__main__":
 	unittest.main()
