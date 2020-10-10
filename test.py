@@ -244,5 +244,16 @@ class TestCarrots(unittest.TestCase):
 		output = subprocess.check_output("python problems/pet.py < inputs/inputPet2.txt", shell=True)
 		self.assertEqual(str(output).split("'")[1].split("\\n")[0], "2 17")
 
+	def test_putovanje(self):
+		import problems.putovanje
+		output = subprocess.check_output("python problems/putovanje.py < inputs/inputPutovanje1.txt", shell=True)
+		self.assertEqual(str(output).split("'")[1].split("\\n")[0], "4")
+
+		output = subprocess.check_output("python problems/putovanje.py < inputs/inputPutovanje2.txt", shell=True)
+		self.assertEqual(str(output).split("'")[1].split("\\n")[0], "3")
+
+		output = subprocess.check_output("python problems/putovanje.py < inputs/inputPutovanje3.txt", shell=True)
+		self.assertEqual(str(output).split("'")[1].split("\\n")[0], "3")
+
 if __name__ == "__main__":
 	unittest.main()
