@@ -255,5 +255,13 @@ class TestCarrots(unittest.TestCase):
 		output = subprocess.check_output("python problems/putovanje.py < inputs/inputPutovanje3.txt", shell=True)
 		self.assertEqual(str(output).split("'")[1].split("\\n")[0], "3")
 
+	def test_quadrant(self):
+		import problems.quadrant
+		output = subprocess.check_output("python problems/quadrant.py < inputs/inputQuadrant1.txt", shell=True)
+		self.assertEqual(str(output).split("'")[1].split("\\n")[0], "1")
+
+		output = subprocess.check_output("python problems/quadrant.py < inputs/inputQuadrant2.txt", shell=True)
+		self.assertEqual(str(output).split("'")[1].split("\\n")[0], "4")
+
 if __name__ == "__main__":
 	unittest.main()
