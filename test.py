@@ -158,5 +158,13 @@ class TestCarrots(unittest.TestCase):
 		output = subprocess.check_output("python problems/basketballoneonone.py < inputs/inputBasketballoneonone2.txt", shell=True)
 		self.assertEqual(str(output).split("'")[1].split("\\n"), ["A", ''])
 
+	def test_bijele(self):
+		import problems.bijele
+		output = subprocess.check_output("python problems/bijele.py < inputs/inputBijele1.txt", shell=True)
+		self.assertEqual(str(output).split("'")[1].split("\\n")[0], "1 0 0 0 0 1")
+
+		output = subprocess.check_output("python problems/bijele.py < inputs/inputBijele2.txt", shell=True)
+		self.assertEqual(str(output).split("'")[1].split("\\n")[0], "-1 0 0 1 0 7")
+
 if __name__ == "__main__":
 	unittest.main()
