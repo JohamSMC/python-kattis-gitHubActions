@@ -185,5 +185,16 @@ class TestCarrots(unittest.TestCase):
 		output = subprocess.check_output("python problems/cold.py < inputs/inputCold2.txt", shell=True)
 		self.assertEqual(str(output).split("'")[1].split("\\n")[0], "5")
 
+	def test_faktor(self):
+		import problems.faktor
+		output = subprocess.check_output("python problems/faktor.py < inputs/inputFaktor1.txt", shell=True)
+		self.assertEqual(str(output).split("'")[1].split("\\n")[0], "875")
+
+		output = subprocess.check_output("python problems/faktor.py < inputs/inputFaktor2.txt", shell=True)
+		self.assertEqual(str(output).split("'")[1].split("\\n")[0], "100")
+
+		output = subprocess.check_output("python problems/faktor.py < inputs/inputFaktor3.txt", shell=True)
+		self.assertEqual(str(output).split("'")[1].split("\\n")[0], "91")
+
 if __name__ == "__main__":
 	unittest.main()
