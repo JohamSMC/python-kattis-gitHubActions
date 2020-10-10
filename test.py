@@ -218,5 +218,13 @@ class TestCarrots(unittest.TestCase):
 		output = subprocess.check_output("python problems/hissingmicrophone.py < inputs/inputHissingmicrophone3.txt", shell=True)
 		self.assertEqual(str(output).split("'")[1].split("\\n")[0], "hiss")
 
+	def test_lastfactorialdigit(self):
+		import problems.lastfactorialdigit
+		output = subprocess.check_output("python problems/lastfactorialdigit.py < inputs/inputLastfactorialdigit1.txt", shell=True)
+		self.assertEqual(str(output).split("'")[1].split("\\n"), ["1", "2", "6", ''])
+
+		output = subprocess.check_output("python problems/lastfactorialdigit.py < inputs/inputLastfactorialdigit2.txt", shell=True)
+		self.assertEqual(str(output).split("'")[1].split("\\n"), ["0", "2", ''])
+
 if __name__ == "__main__":
 	unittest.main()
