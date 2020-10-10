@@ -231,5 +231,10 @@ class TestCarrots(unittest.TestCase):
 		output = subprocess.check_output("python problems/oddities.py < inputs/inputOddities1.txt", shell=True)
 		self.assertEqual(str(output).split("'")[1].split("\\n"), ["10 is even", "9 is odd", "-5 is odd", ''])
 
+	def test_oddmanout(self):
+		import problems.oddmanout
+		output = subprocess.check_output("python problems/oddmanout.py < inputs/inputOddmanout1.txt", shell=True)
+		self.assertEqual(str(output).split("'")[1].split("\\n"), ["Case #1: 1", "Case #2: 7", "Case #3: 5", ''])
+
 if __name__ == "__main__":
 	unittest.main()
