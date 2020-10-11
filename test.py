@@ -299,5 +299,16 @@ class TestCarrots(unittest.TestCase):
 
 		output = subprocess.check_output("python problems/simonsays.py < inputs/inputSimonsays3.txt", shell=True)
 		self.assertEqual(str(output).split("'")[1].split("\\n"), ["raise your left hand.", ''])
+
+	def test_spavanac(self):
+		import problems.spavanac
+		output = subprocess.check_output("python problems/spavanac.py < inputs/inputSpavanac1.txt", shell=True)
+		self.assertEqual(str(output).split("'")[1].split("\\n")[0], "9 25")
+
+		output = subprocess.check_output("python problems/spavanac.py < inputs/inputSpavanac2.txt", shell=True)
+		self.assertEqual(str(output).split("'")[1].split("\\n")[0], "23 45")
+
+		output = subprocess.check_output("python problems/spavanac.py < inputs/inputSpavanac3.txt", shell=True)
+		self.assertEqual(str(output).split("'")[1].split("\\n")[0], "22 55")
 if __name__ == "__main__":
 	unittest.main()
