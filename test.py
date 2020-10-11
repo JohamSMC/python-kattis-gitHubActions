@@ -276,5 +276,12 @@ class TestCarrots(unittest.TestCase):
 		output = subprocess.check_output("python problems/reverserot.py < inputs/inputReverserot1.txt", shell=True)
 		self.assertEqual(str(output).split("'")[1].split("\\n"), ["EDCB", "CHUHKWBR.", "UPEA", "ROAD" , "PWRAYF_LWNHAXWH.RHPWRAJAX_HMWJHPWRAORQ." , "FGVTGXPQEAGDAQVAIPKTVU" , "REVERSE_ROT" , ''])
 
+	def test_sibice(self):
+		import problems.sibice
+		output = subprocess.check_output("python problems/sibice.py < inputs/inputSibice1.txt", shell=True)
+		self.assertEqual(str(output).split("'")[1].split("\\n"), ["DA", "DA", "DA", "NE" , "NE", ''])
+
+		output = subprocess.check_output("python problems/sibice.py < inputs/inputSibice2.txt", shell=True)
+		self.assertEqual(str(output).split("'")[1].split("\\n"), ["NE", "DA", ''])
 if __name__ == "__main__":
 	unittest.main()
