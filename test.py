@@ -340,5 +340,15 @@ class TestCarrots(unittest.TestCase):
 		output = subprocess.check_output("python problems/timebomb.py < inputs/inputTimebomb3.txt", shell=True)
 		self.assertEqual(str(output).split("'")[1].split("\\n")[0], "BOOM!!")
 
+	def test_timeloop(self):
+		import problems.timeloop
+		output = subprocess.check_output("python problems/timeloop.py < inputs/inputTimeloop1.txt", shell=True)
+		self.assertEqual(str(output).split("'")[1].split("\\n"), ["1 Abracadabra", "2 Abracadabra", "3 Abracadabra", "4 Abracadabra", "5 Abracadabra", ''])
+
+		output = subprocess.check_output("python problems/timeloop.py < inputs/inputTimeloop2.txt", shell=True)
+		self.assertEqual(str(output).split("'")[1].split("\\n"), ["1 Abracadabra", "2 Abracadabra", "3 Abracadabra", "4 Abracadabra",
+																 "5 Abracadabra", "6 Abracadabra", "7 Abracadabra", "8 Abracadabra",
+																 "9 Abracadabra", "10 Abracadabra", ''])
+
 if __name__ == "__main__":
 	unittest.main()
