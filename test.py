@@ -320,5 +320,17 @@ class TestCarrots(unittest.TestCase):
 		import problems.t9spelling
 		output = subprocess.check_output("python problems/t9spelling.py < inputs/inputT9spelling1.txt", shell=True)
 		self.assertEqual(str(output).split("'")[1].split("\\n"), ["Case #1: 44 444", "Case #2: 999337777", "Case #3: 333666 6660 022 2777", "Case #4: 4433555 555666096667775553", ''])
+
+	def test_tarifa(self):
+		import problems.tarifa
+		output = subprocess.check_output("python problems/tarifa.py < inputs/inputTarifa1.txt", shell=True)
+		self.assertEqual(str(output).split("'")[1].split("\\n")[0], "28")
+
+		output = subprocess.check_output("python problems/tarifa.py < inputs/inputTarifa2.txt", shell=True)
+		self.assertEqual(str(output).split("'")[1].split("\\n")[0], "16")
+
+		output = subprocess.check_output("python problems/tarifa.py < inputs/inputTarifa3.txt", shell=True)
+		self.assertEqual(str(output).split("'")[1].split("\\n")[0], "15")
+
 if __name__ == "__main__":
 	unittest.main()
