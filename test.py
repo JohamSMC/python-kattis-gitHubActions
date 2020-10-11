@@ -271,5 +271,10 @@ class TestCarrots(unittest.TestCase):
 		output = subprocess.check_output("python problems/reversebinary.py < inputs/inputReversebinary2.txt", shell=True)
 		self.assertEqual(str(output).split("'")[1].split("\\n")[0], "61")
 
+	def test_reverserot(self):
+		import problems.reverserot
+		output = subprocess.check_output("python problems/reverserot.py < inputs/inputReverserot1.txt", shell=True)
+		self.assertEqual(str(output).split("'")[1].split("\\n"), ["EDCB", "CHUHKWBR.", "UPEA", "ROAD" , "PWRAYF_LWNHAXWH.RHPWRAJAX_HMWJHPWRAORQ." , "FGVTGXPQEAGDAQVAIPKTVU" , "REVERSE_ROT" , ''])
+
 if __name__ == "__main__":
 	unittest.main()
