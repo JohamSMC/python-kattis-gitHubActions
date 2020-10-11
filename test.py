@@ -288,5 +288,16 @@ class TestCarrots(unittest.TestCase):
 		import problems.simon
 		output = subprocess.check_output("python problems/simon.py < inputs/inputSimon1.txt", shell=True)
 		self.assertEqual(str(output).split("'")[1].split("\\n"), ["write a program", "", "", "get balloons", ''])
+
+	def test_simonsays(self):
+		import problems.simonsays
+		output = subprocess.check_output("python problems/simonsays.py < inputs/inputSimonsays1.txt", shell=True)
+		self.assertEqual(str(output).split("'")[1].split("\\n"), ["smile.", ''])
+
+		output = subprocess.check_output("python problems/simonsays.py < inputs/inputSimonsays2.txt", shell=True)
+		self.assertEqual(str(output).split("'")[1].split("\\n"), ["raise your right hand.", "raise your left hand.", ''])
+
+		output = subprocess.check_output("python problems/simonsays.py < inputs/inputSimonsays3.txt", shell=True)
+		self.assertEqual(str(output).split("'")[1].split("\\n"), ["raise your left hand.", ''])
 if __name__ == "__main__":
 	unittest.main()
