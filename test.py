@@ -263,5 +263,13 @@ class TestCarrots(unittest.TestCase):
 		output = subprocess.check_output("python problems/quadrant.py < inputs/inputQuadrant2.txt", shell=True)
 		self.assertEqual(str(output).split("'")[1].split("\\n")[0], "4")
 
+	def test_reversebinary(self):
+		import problems.reversebinary
+		output = subprocess.check_output("python problems/reversebinary.py < inputs/inputReversebinary1.txt", shell=True)
+		self.assertEqual(str(output).split("'")[1].split("\\n")[0], "11")
+
+		output = subprocess.check_output("python problems/reversebinary.py < inputs/inputReversebinary2.txt", shell=True)
+		self.assertEqual(str(output).split("'")[1].split("\\n")[0], "61")
+
 if __name__ == "__main__":
 	unittest.main()
