@@ -350,5 +350,13 @@ class TestCarrots(unittest.TestCase):
 																 "5 Abracadabra", "6 Abracadabra", "7 Abracadabra", "8 Abracadabra",
 																 "9 Abracadabra", "10 Abracadabra", ''])
 
+	def test_tri(self):
+		import problems.tri
+		output = subprocess.check_output("python problems/tri.py < inputs/inputTri1.txt", shell=True)
+		self.assertEqual(str(output).split("'")[1].split("\\n")[0], "5+3=8")
+
+		output = subprocess.check_output("python problems/tri.py < inputs/inputTri2.txt", shell=True)
+		self.assertEqual(str(output).split("'")[1].split("\\n")[0], "5=15/3")
+
 if __name__ == "__main__":
 	unittest.main()
