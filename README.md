@@ -6,48 +6,48 @@
 | Name(Problem) 	          | File Name                                                                                         	              | Difficulty 	|
 |:-------------:	          |---------------------------------------------------------------------------------------------------	              |:----------:	|
 | [Hello World!](https://open.kattis.com/problems/hello)|[hello.py](https://github.com/JohamSMC/python-kattis-gitHubActions/blob/master/problems/hello.py)|1.2|
-| [Faktor*](https://open.kattis.com/problems/faktor)|[faktor.py](https://github.com/JohamSMC/python-kattis-gitHubActions/blob/master/problems/)|1.2|
-| [Autori*](https://open.kattis.com/problems/autori)|[autori.py](https://github.com/JohamSMC/python-kattis-gitHubActions/blob/master/problems/)|1.3|
-| [Bijele*](https://open.kattis.com/problems/bijele)|[bijele.py](https://github.com/JohamSMC/python-kattis-gitHubActions/blob/master/problems/)|1.3|
-| [Cold-puter Science*](https://open.kattis.com/problems/cold)|[cold.py](https://github.com/JohamSMC/python-kattis-gitHubActions/blob/master/problems/)|1.3|
-| [Filip*](https://open.kattis.com/problems/filip)|[filip.py](https://github.com/JohamSMC/python-kattis-gitHubActions/blob/master/problems/)|1.3|
+| [Faktor](https://open.kattis.com/problems/faktor)|[faktor.py](https://github.com/JohamSMC/python-kattis-gitHubActions/blob/master/problems/faktor)|1.2|
+| [Autori](https://open.kattis.com/problems/autori)|[autori.py](https://github.com/JohamSMC/python-kattis-gitHubActions/blob/master/problems/autori)|1.3|
+| [Bijele](https://open.kattis.com/problems/bijele)|[bijele.py](https://github.com/JohamSMC/python-kattis-gitHubActions/blob/master/problems/bijele)|1.3|
+| [Cold-puter Science](https://open.kattis.com/problems/cold)|[cold.py](https://github.com/JohamSMC/python-kattis-gitHubActions/blob/master/problems/cold)|1.3|
+| [Filip](https://open.kattis.com/problems/filip)|[filip.py](https://github.com/JohamSMC/python-kattis-gitHubActions/blob/master/problems/filip)|1.3|
 | [Solving for Carrots](https://open.kattis.com/problems/carrots)|[carrots.py](https://github.com/JohamSMC/python-kattis-gitHubActions/blob/master/problems/carrots.py)| 1.3|
 | [Take Two Stones](https://open.kattis.com/problems/twostones)|[twostones.py](https://github.com/JohamSMC/python-kattis-gitHubActions/blob/master/problems/twostones.py)| 1.3|
-| [Hissing Microphone*](https://open.kattis.com/problems/hissingmicrophone)|[hissingmicrophone.py](https://github.com/JohamSMC/python-kattis-gitHubActions/blob/master/problems/)|1.3|
+| [Hissing Microphone](https://open.kattis.com/problems/hissingmicrophone)|[hissingmicrophone.py](https://github.com/JohamSMC/python-kattis-gitHubActions/blob/master/problems/hissingmicrophone)|1.3|
 | [R2](https://open.kattis.com/problems/r2)|[r2.py](https://github.com/JohamSMC/python-kattis-gitHubActions/blob/master/problems/r2.py)|1.3|
 | [Quality-Adjusted Life-Year](https://open.kattis.com/problems/qaly)| [qaly.py](https://github.com/JohamSMC/python-kattis-gitHubActions/blob/master/problems/qaly.py)|1.3|
 | [Pot](https://open.kattis.com/problems/pot)|[pot.py](https://github.com/JohamSMC/python-kattis-gitHubActions/blob/master/problems/pot.py)|1.3|
-| [Trik*](https://open.kattis.com/problems/trik)|[trik.py](https://github.com/JohamSMC/python-kattis-gitHubActions/blob/master/problems/)|1.3|
+| [Trik](https://open.kattis.com/problems/trik)|[trik.py](https://github.com/JohamSMC/python-kattis-gitHubActions/blob/master/problems/trik)|1.3|
 | [Kemija08](https://open.kattis.com/problems/kemija08)|[kemija08.py](https://github.com/JohamSMC/python-kattis-gitHubActions/blob/master/problems/kemija08.py)|1.4|
-| [Last Factorial Digit*](https://open.kattis.com/problems/lastfactorialdigit)|[lastfactorialdigit.py](https://github.com/JohamSMC/python-kattis-gitHubActions/blob/master/problems/)|1.4|
-| [Oddities*](https://open.kattis.com/problems/oddities)|[oddities.py](https://github.com/JohamSMC/python-kattis-gitHubActions/blob/master/problems/)|1.4|
-| [Pet*](https://open.kattis.com/problems/pet)|[pet.py](https://github.com/JohamSMC/python-kattis-gitHubActions/blob/master/problems/)|1.4|
-| [Spavanac*](https://open.kattis.com/problems/spavanac)|[spavanac.py](https://github.com/JohamSMC/python-kattis-gitHubActions/blob/master/problems/)|1.4|
-| [Speed Limit*](https://open.kattis.com/problems/speedlimit)|[speedlimit.py](https://github.com/JohamSMC/python-kattis-gitHubActions/blob/master/problems/)|1.4|
-| [Tarifa*](https://open.kattis.com/problems/tarifa)|[tarifa.py](https://github.com/JohamSMC/python-kattis-gitHubActions/blob/master/problems/)|1.4|
-| [Stuck In A Time Loop*](https://open.kattis.com/problems/timeloop)|[timeloop.py](https://github.com/JohamSMC/python-kattis-gitHubActions/blob/master/problems/)|1.4|
-| [Tri*](https://open.kattis.com/problems/tri)|[tri.py](https://github.com/JohamSMC/python-kattis-gitHubActions/blob/master/problems/)|1.4|
-| [A Real Challenge*](https://open.kattis.com/problems/areal)|[areal.py](https://github.com/JohamSMC/python-kattis-gitHubActions/blob/master/problems/)|1.5|
-| [Basketball One-on-One*](https://open.kattis.com/problems/basketballoneonone)|[basketballoneonone.py](https://github.com/JohamSMC/python-kattis-gitHubActions/blob/master/problems/)|1.5| 
+| [Last Factorial Digit](https://open.kattis.com/problems/lastfactorialdigit)|[lastfactorialdigit.py](https://github.com/JohamSMC/python-kattis-gitHubActions/blob/master/problems/lastfactorialdigit)|1.4|
+| [Oddities](https://open.kattis.com/problems/oddities)|[oddities.py](https://github.com/JohamSMC/python-kattis-gitHubActions/blob/master/problems/oddities)|1.4|
+| [Pet](https://open.kattis.com/problems/pet)|[pet.py](https://github.com/JohamSMC/python-kattis-gitHubActions/blob/master/problems/pet)|1.4|
+| [Spavanac](https://open.kattis.com/problems/spavanac)|[spavanac.py](https://github.com/JohamSMC/python-kattis-gitHubActions/blob/master/problems/spavanac)|1.4|
+| [Speed Limit](https://open.kattis.com/problems/speedlimit)|[speedlimit.py](https://github.com/JohamSMC/python-kattis-gitHubActions/blob/master/problems/speedlimit)|1.4|
+| [Tarifa](https://open.kattis.com/problems/tarifa)|[tarifa.py](https://github.com/JohamSMC/python-kattis-gitHubActions/blob/master/problems/tarifa)|1.4|
+| [Stuck In A Time Loop](https://open.kattis.com/problems/timeloop)|[timeloop.py](https://github.com/JohamSMC/python-kattis-gitHubActions/blob/master/problems/timeloop)|1.4|
+| [Tri](https://open.kattis.com/problems/tri)|[tri.py](https://github.com/JohamSMC/python-kattis-gitHubActions/blob/master/problems/tri)|1.4|
+| [A Real Challenge](https://open.kattis.com/problems/areal)|[areal.py](https://github.com/JohamSMC/python-kattis-gitHubActions/blob/master/problems/areal)|1.5|
+| [Basketball One-on-One](https://open.kattis.com/problems/basketballoneonone)|[basketballoneonone.py](https://github.com/JohamSMC/python-kattis-gitHubActions/blob/master/problems/basketballoneonone)|1.5| 
 | [Skener](https://open.kattis.com/problems/skener)|[skener.py](https://github.com/JohamSMC/python-kattis-gitHubActions/blob/master/problems/skener.py)|1.5|
 | [Herman](https://open.kattis.com/problems/herman)|[herman.py](https://github.com/JohamSMC/python-kattis-gitHubActions/blob/master/problems/herman.py)|1.5|
-| [Odd Man Out*](https://open.kattis.com/problems/oddmanout)|[oddmanout.py](https://github.com/JohamSMC/python-kattis-gitHubActions/blob/master/problems/)|1.5|
-| [Quadrant Selection*](https://open.kattis.com/problems/quadrant)|[quadrant.py](https://github.com/JohamSMC/python-kattis-gitHubActions/blob/master/problems/)|1.5|
-| [Reversed Binary Numbers*](https://open.kattis.com/problems/reversebinary)|[reversebinary.py](https://github.com/JohamSMC/python-kattis-gitHubActions/blob/master/problems/)|1.5|
-| [Simon Says*](https://open.kattis.com/problems/simonsays)|[simonsays.py](https://github.com/JohamSMC/python-kattis-gitHubActions/blob/master/problems/)|1.5|
-| [Aaah!*](https://open.kattis.com/problems/aaah)|[aaah.py](https://github.com/JohamSMC/python-kattis-gitHubActions/blob/master/problems/)|1.6|
-| [Apaxiaaaaaaaaaaaans!*](https://open.kattis.com/problems/apaxiaaans)|[apaxiaaans.py](https://github.com/JohamSMC/python-kattis-gitHubActions/blob/master/problems/)|1.6|
-| [Sibice*](https://open.kattis.com/problems/sibice)|[sibice.py](https://github.com/JohamSMC/python-kattis-gitHubActions/blob/master/problems/)|1.6|
-| [T9 Spelling*](https://open.kattis.com/problems/t9spelling)|[t9spelling.py](https://github.com/JohamSMC/python-kattis-gitHubActions/blob/master/problems/)|1.6|
-| [ABC*](https://open.kattis.com/problems/abc)|[abc.py](https://github.com/JohamSMC/python-kattis-gitHubActions/blob/master/problems/)|1.7|
-| [Reverse Rot*](https://open.kattis.com/problems/reverserot)|[reverserot.py](https://github.com/JohamSMC/python-kattis-gitHubActions/blob/master/problems/)|1.7|
-| [Timebomb*](https://open.kattis.com/problems/timebomb)|[timebomb.py](https://github.com/JohamSMC/python-kattis-gitHubActions/blob/master/problems/)|1.7|
-| [Army Strength (Easy)*](https://open.kattis.com/problems/armystrengtheasy)|[armystrengtheasy.py](https://github.com/JohamSMC/python-kattis-gitHubActions/blob/master/problems/)|2.2|
-| [Cokolada*](https://open.kattis.com/problems/cokolada)|[cokolada.py](https://github.com/JohamSMC/python-kattis-gitHubActions/blob/master/problems/)|2.3|
-| [Above Average*](https://open.kattis.com/problems/aboveaverage)|[aboveaverage.py](https://github.com/JohamSMC/python-kattis-gitHubActions/blob/master/problems/)|2.3|
-| [Simon Says*](https://open.kattis.com/problems/simon)|[simon.py](https://github.com/JohamSMC/python-kattis-gitHubActions/blob/master/problems/)|2.3|
-| [Putovanje*](https://open.kattis.com/problems/putovanje)|[putovanje.py](https://github.com/JohamSMC/python-kattis-gitHubActions/blob/master/problems/)|2.7|
-| [Arithmetic*](https://open.kattis.com/problems/arithmetic)|[arithmetic.py](https://github.com/JohamSMC/python-kattis-gitHubActions/blob/master/problems/)|3.8|
+| [Odd Man Out](https://open.kattis.com/problems/oddmanout)|[oddmanout.py](https://github.com/JohamSMC/python-kattis-gitHubActions/blob/master/problems/oddmanout)|1.5|
+| [Quadrant Selection](https://open.kattis.com/problems/quadrant)|[quadrant.py](https://github.com/JohamSMC/python-kattis-gitHubActions/blob/master/problems/quadrant)|1.5|
+| [Reversed Binary Numbers](https://open.kattis.com/problems/reversebinary)|[reversebinary.py](https://github.com/JohamSMC/python-kattis-gitHubActions/blob/master/problems/reversebinary)|1.5|
+| [Simon Says](https://open.kattis.com/problems/simonsays)|[simonsays.py](https://github.com/JohamSMC/python-kattis-gitHubActions/blob/master/problems/simonsays)|1.5|
+| [Aaah!](https://open.kattis.com/problems/aaah)|[aaah.py](https://github.com/JohamSMC/python-kattis-gitHubActions/blob/master/problems/aaah)|1.6|
+| [Apaxiaaaaaaaaaaaans!](https://open.kattis.com/problems/apaxiaaans)|[apaxiaaans.py](https://github.com/JohamSMC/python-kattis-gitHubActions/blob/master/problems/apaxiaaans)|1.6|
+| [Sibice](https://open.kattis.com/problems/sibice)|[sibice.py](https://github.com/JohamSMC/python-kattis-gitHubActions/blob/master/problems/sibice)|1.6|
+| [T9 Spelling](https://open.kattis.com/problems/t9spelling)|[t9spelling.py](https://github.com/JohamSMC/python-kattis-gitHubActions/blob/master/problems/t9spelling)|1.6|
+| [ABC](https://open.kattis.com/problems/abc)|[abc.py](https://github.com/JohamSMC/python-kattis-gitHubActions/blob/master/problems/abc)|1.7|
+| [Reverse Rot](https://open.kattis.com/problems/reverserot)|[reverserot.py](https://github.com/JohamSMC/python-kattis-gitHubActions/blob/master/problems/reverserot)|1.7|
+| [Timebomb](https://open.kattis.com/problems/timebomb)|[timebomb.py](https://github.com/JohamSMC/python-kattis-gitHubActions/blob/master/problems/timebomb)|1.7|
+| [Army Strength (Easy)](https://open.kattis.com/problems/armystrengtheasy)|[armystrengtheasy.py](https://github.com/JohamSMC/python-kattis-gitHubActions/blob/master/problems/armystrengtheasy)|2.2|
+| [Cokolada](https://open.kattis.com/problems/cokolada)|[cokolada.py](https://github.com/JohamSMC/python-kattis-gitHubActions/blob/master/problems/cokolada)|2.3|
+| [Above Average](https://open.kattis.com/problems/aboveaverage)|[aboveaverage.py](https://github.com/JohamSMC/python-kattis-gitHubActions/blob/master/problems/aboveaverage)|2.3|
+| [Simon Says](https://open.kattis.com/problems/simon)|[simon.py](https://github.com/JohamSMC/python-kattis-gitHubActions/blob/master/problems/simon)|2.3|
+| [Putovanje](https://open.kattis.com/problems/putovanje)|[putovanje.py](https://github.com/JohamSMC/python-kattis-gitHubActions/blob/master/problems/putovanje)|2.7|
+| [Arithmetic](https://open.kattis.com/problems/arithmetic)|[arithmetic.py](https://github.com/JohamSMC/python-kattis-gitHubActions/blob/master/problems/arithmetic)|3.8|
 
 <!---
 | []()|[xxxx.py](https://github.com/JohamSMC/python-kattis-gitHubActions/blob/master/problems/)|1.| 
