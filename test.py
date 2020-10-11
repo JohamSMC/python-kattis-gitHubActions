@@ -358,5 +358,13 @@ class TestCarrots(unittest.TestCase):
 		output = subprocess.check_output("python problems/tri.py < inputs/inputTri2.txt", shell=True)
 		self.assertEqual(str(output).split("'")[1].split("\\n")[0], "5=15/3")
 
+	def test_trik(self):
+		import problems.trik
+		output = subprocess.check_output("python problems/trik.py < inputs/inputTrik1.txt", shell=True)
+		self.assertEqual(str(output).split("'")[1].split("\\n")[0], "3")
+
+		output = subprocess.check_output("python problems/trik.py < inputs/inputTrik2.txt", shell=True)
+		self.assertEqual(str(output).split("'")[1].split("\\n")[0], "1")
+
 if __name__ == "__main__":
 	unittest.main()
