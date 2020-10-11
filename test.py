@@ -316,5 +316,9 @@ class TestCarrots(unittest.TestCase):
 		output = subprocess.check_output("python problems/speedlimit.py < inputs/inputSpeedlimit1.txt", shell=True)
 		self.assertEqual(str(output).split("'")[1].split("\\n"), ["170 miles", "180 miles", "90 miles", ''])
 
+	def test_t9spelling(self):
+		import problems.t9spelling
+		output = subprocess.check_output("python problems/t9spelling.py < inputs/inputT9spelling1.txt", shell=True)
+		self.assertEqual(str(output).split("'")[1].split("\\n"), ["Case #1: 44 444", "Case #2: 999337777", "Case #3: 333666 6660 022 2777", "Case #4: 4433555 555666096667775553", ''])
 if __name__ == "__main__":
 	unittest.main()
