@@ -332,5 +332,13 @@ class TestCarrots(unittest.TestCase):
 		output = subprocess.check_output("python problems/tarifa.py < inputs/inputTarifa3.txt", shell=True)
 		self.assertEqual(str(output).split("'")[1].split("\\n")[0], "15")
 
+	def test_timebomb(self):
+		import problems.timebomb
+		output = subprocess.check_output("python problems/timebomb.py < inputs/inputTimebomb2.txt", shell=True)
+		self.assertEqual(str(output).split("'")[1].split("\\n")[0], "BOOM!!")
+
+		output = subprocess.check_output("python problems/timebomb.py < inputs/inputTimebomb3.txt", shell=True)
+		self.assertEqual(str(output).split("'")[1].split("\\n")[0], "BOOM!!")
+
 if __name__ == "__main__":
 	unittest.main()
