@@ -310,5 +310,11 @@ class TestCarrots(unittest.TestCase):
 
 		output = subprocess.check_output("python problems/spavanac.py < inputs/inputSpavanac3.txt", shell=True)
 		self.assertEqual(str(output).split("'")[1].split("\\n")[0], "22 55")
+
+	def test_speedlimit(self):
+		import problems.speedlimit
+		output = subprocess.check_output("python problems/speedlimit.py < inputs/inputSpeedlimit1.txt", shell=True)
+		self.assertEqual(str(output).split("'")[1].split("\\n"), ["170 miles", "180 miles", "90 miles", ''])
+
 if __name__ == "__main__":
 	unittest.main()
