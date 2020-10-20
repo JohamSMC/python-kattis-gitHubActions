@@ -366,5 +366,14 @@ class TestCarrots(unittest.TestCase):
 		output = subprocess.check_output("python problems/trik.py < inputs/inputTrik2.txt", shell=True)
 		self.assertEqual(str(output).split("'")[1].split("\\n")[0], "1")
 
+	def test_symmetricorder(self):
+		import problems.symmetricorder
+		output = subprocess.check_output("python problems/symmetricorder.py < inputs/inputSymmetricorder1.txt", shell=True)
+		self.assertEqual(str(output).split("'")[1].split("\\n"), ["SET 1", "Bo", "Jean", "Claude",
+																 "Marybeth", "William", "Kevin", "Pat",
+																 "SET 2", "Jim", 'Zoe', "Frederick", "Annabelle", "Joey",
+																 "Ben", "SET 3", "John", "Fran", "Cece", "Stan", "Bill", ''])
+
+
 if __name__ == "__main__":
 	unittest.main()
