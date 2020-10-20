@@ -39,6 +39,7 @@
 | [Apaxiaaaaaaaaaaaans!](https://open.kattis.com/problems/apaxiaaans)|[apaxiaaans.py](https://github.com/JohamSMC/python-kattis-gitHubActions/blob/master/problems/apaxiaaans.py)|1.6|
 | [Sibice](https://open.kattis.com/problems/sibice)|[sibice.py](https://github.com/JohamSMC/python-kattis-gitHubActions/blob/master/problems/sibice.py)|1.6|
 | [T9 Spelling](https://open.kattis.com/problems/t9spelling)|[t9spelling.py](https://github.com/JohamSMC/python-kattis-gitHubActions/blob/master/problems/t9spelling.py)|1.6|
+| [Symmetric Order](https://open.kattis.com/problems/symmetricorder)|[symmetricorder.py](https://github.com/JohamSMC/python-kattis-gitHubActions/blob/master/problems/symmetricorder.py)|1.6|
 | [ABC](https://open.kattis.com/problems/abc)|[abc.py](https://github.com/JohamSMC/python-kattis-gitHubActions/blob/master/problems/abc.py)|1.7|
 | [Reverse Rot](https://open.kattis.com/problems/reverserot)|[reverserot.py](https://github.com/JohamSMC/python-kattis-gitHubActions/blob/master/problems/reverserot.py)|1.7|
 | [Timebomb](https://open.kattis.com/problems/timebomb)|[timebomb.py](https://github.com/JohamSMC/python-kattis-gitHubActions/blob/master/problems/timebomb.py)|1.7|
