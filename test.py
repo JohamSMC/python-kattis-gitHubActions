@@ -3,7 +3,7 @@ import unittest
 import os
 import subprocess
 
-class TestCarrots(unittest.TestCase):
+class TestExercises(unittest.TestCase):
 
 	def test_hello(self):
 		import problems.hello
