@@ -2,7 +2,9 @@
 
 [![GitHub User](https://img.shields.io/badge/GitHub-JohamSMC-red?style=plastic&logo=github&link=https://github.com/JohamSMC)](https://github.com/JohamSMC)
 
+[<img src="https://img.shields.io/badge/Python-V3.8-green?style=flat&logo=python&" alt="Python"/>](https://www.python.org/)
 [![Run tests](https://github.com/JohamSMC/python-kattis-gitHubActions/workflows/Run%20Test%20with%20unittest/badge.svg)](https://github.com/JohamSMC/python-kattis-gitHubActions/actions?query=workflow%3A%22Run+Test+with+unittest%22)
+![GitHub last commit](https://img.shields.io/github/last-commit/JohamSMC/python-kattis-gitHubActions)
 
 | Name(Problem) 	          | File Name                                                                                         	              | Difficulty 	|
 |:-------------:	          |---------------------------------------------------------------------------------------------------	              |:----------:	|
