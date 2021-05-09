@@ -1,28 +1,30 @@
 def main():
-	numberTimes=int(input())
+    number_times = int(input())
 
-	for element in range(numberTimes):
-		auxNumbs=input().split(" ")
-		auxNumbs.reverse()
+    for element in range(number_times):
+        aux_numbs = input().split(" ")
+        aux_numbs.reverse()
 
-		auxNumbs.pop()
+        aux_numbs.pop()
 
-		averageStudents=average(auxNumbs)
-		numStudents=0
-		for x in range(len(auxNumbs)):
-			if int(auxNumbs[x]) >averageStudents:
-				numStudents+=1
+        average_students = average(aux_numbs)
+        num_students = 0
+        for x in range(len(aux_numbs)):
+            if int(aux_numbs[x]) > average_students:
+                num_students += 1
 
-		porcentajeStudents= (numStudents*100)/len(auxNumbs)
-		"""print(round(porcentajeStudents,3))	"""
-		print("{0:.3f}".format(porcentajeStudents),"%",sep="")
+        porcentaje_students = (num_students*100)/len(aux_numbs)
+        """print(round(porcentaje_students,3))	"""
+        print("{0:.3f}".format(porcentaje_students), "%", sep="")
+
 
 def average(numbs):
-    sum=0.0
+    sum = 0.0
     for i in range(len(numbs)):
-        sum=sum+int(numbs[i])
+        sum = sum+int(numbs[i])
 
     return sum/len(numbs)
 
+
 if __name__ == '__main__':
-	main()
+    main()
