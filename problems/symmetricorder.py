@@ -1,23 +1,25 @@
 from typing import List
 
+
 def main():
-	setSize : int = int(input())
-	setNumber : int = 1
-	while setSize != 0:
-		inputData : List[str] = []
-		outputData : List[str] = []
-		for iteration in range(setSize):
-			inputData.append(input())
+    set_size: int = int(input())
+    set_number: int = 1
+    while set_size != 0:
+        input_data: List[str] = []
+        output_data: List[str] = []
+        for iteration in range(set_size):
+            input_data.append(input())
 
-		#print(inputData)
-		outputData = list(filter(lambda x : inputData.index(x) % 2 == 0, inputData))
-		outputData += list(filter(lambda x : inputData.index(x) % 2 != 0, inputData))[::-1]
+        # print(input_data)
+        output_data = list(filter(lambda x: input_data.index(x) % 2 == 0, input_data))
+        output_data += list(filter(lambda x: input_data.index(x) % 2 != 0, input_data))[::-1]
 
-		print("SET "+str(setNumber))
-		for data in outputData:
-			print(data)
-		setSize = int(input())
-		setNumber += 1
+        print("SET "+str(set_number))
+        for data in output_data:
+            print(data)
+        set_size = int(input())
+        set_number += 1
+
 
 if __name__ == '__main__':
-	main()
+    main()

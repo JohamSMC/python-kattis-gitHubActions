@@ -1,10 +1,11 @@
 def main():
-	ouput=0
-	for x in range(int(input())):
-		aux=input()
-		ouput += int(aux[0:-1])**(int(aux[-1]))
+    output = 0
+    for x in range(int(input())):
+        aux = input()
+        output += int(aux[0:-1])**(int(aux[-1]))
 
-	print(ouput)
+    print(output)
+
 
 if __name__ == '__main__':
-	main()
+    main()

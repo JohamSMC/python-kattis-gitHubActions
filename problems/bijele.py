@@ -1,15 +1,17 @@
 def main():
-	numbersPart=list(map(int,input().split()))
+    numbers_part = list(map(int, input().split()))
 
-	print(missingFiles(numbersPart[0],1)+" "+missingFiles(numbersPart[1],1)
-			+" "+missingFiles(numbersPart[2],2)+" "+missingFiles(numbersPart[3],2)
-			+" "+missingFiles(numbersPart[4],2)+" "+missingFiles(numbersPart[5],8))
+    print(missing_files(numbers_part[0], 1)+" "+missing_files(numbers_part[1], 1)
+          + " "+missing_files(numbers_part[2], 2)+" "+missing_files(numbers_part[3], 2)
+          + " "+missing_files(numbers_part[4], 2)+" "+missing_files(numbers_part[5], 8))
 
-def missingFiles(numPart,validSet):
-	if numPart==validSet:
-		return "0"
-	else:
-		return str(validSet-numPart)
+
+def missing_files(num_part, valid_set):
+    if num_part == valid_set:
+        return "0"
+    else:
+        return str(valid_set-num_part)
+
 
 if __name__ == '__main__':
-	main()
+    main()

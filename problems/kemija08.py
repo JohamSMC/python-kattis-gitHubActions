@@ -1,14 +1,14 @@
-import math
 def main():
-	inputChain = input().lower()
+    input_hain = input().lower()
 
-	inputChain = inputChain.replace('apa','a')
-	inputChain = inputChain.replace('epe','e')
-	inputChain = inputChain.replace('ipi','i')
-	inputChain = inputChain.replace('opo','o')
-	inputChain = inputChain.replace('upu','u')
+    input_hain = input_hain.replace('apa', 'a')
+    input_hain = input_hain.replace('epe', 'e')
+    input_hain = input_hain.replace('ipi', 'i')
+    input_hain = input_hain.replace('opo', 'o')
+    input_hain = input_hain.replace('upu', 'u')
 
-	print(inputChain)
+    print(input_hain)
+
 
 if __name__ == '__main__':
-	main()
+    main()

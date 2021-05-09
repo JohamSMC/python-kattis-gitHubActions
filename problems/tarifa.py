@@ -1,14 +1,15 @@
 def main():
-	maxMonth=int(input())
+    max_month = int(input())
 
-	valuesMonth=[]
+    values_month = []
 
-	numberMonth=int(input())
+    number_month = int(input())
 
-	for x in range(numberMonth):
-		valuesMonth.append(int(input()))
+    for x in range(number_month):
+        values_month.append(int(input()))
 
-	print((maxMonth*(numberMonth+1)) - sum(valuesMonth))
+    print((max_month*(number_month+1)) - sum(values_month))
+
 
 if __name__ == '__main__':
-	main()
+    main()

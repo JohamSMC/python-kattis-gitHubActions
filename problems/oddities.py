@@ -1,11 +1,12 @@
 def main():
-	numberCases = int(input())
+    number_cases = int(input())
 
-	for x in range(numberCases):
-		numberEvaluate = int(input())
-		print(str(numberEvaluate)+" is even"
-			if numberEvaluate%2 == 0
-			else str(numberEvaluate)+" is odd")
+    for x in range(number_cases):
+        number_evaluate = int(input())
+        print(str(number_evaluate)+" is even"
+              if number_evaluate % 2 == 0
+              else str(number_evaluate)+" is odd")
+
 
 if __name__ == '__main__':
-	main()
+    main()

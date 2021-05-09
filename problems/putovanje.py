@@ -1,22 +1,23 @@
 def main():
-	n, c = list(map(int, input().split(" ")))
-	fruitWeight = list(map(int, input().split(" ")))
-	output = 0
-	auxOutput = []
+    n, c = list(map(int, input().split(" ")))
+    fruit_weight = list(map(int, input().split(" ")))
+    output = 0
+    aux_output = []
 
-	for i in range(len(fruitWeight)-1):
-		if len(fruitWeight)-i <= output:
-			break
-		auxOutput = []
-		for j in range(i,len(fruitWeight)):
-			if sum(auxOutput) == c:
-				break
-			if (fruitWeight[j]+sum(auxOutput) <= c):
-				auxOutput.append(fruitWeight[j])
-			# print("J =",j,end = "\t")
-		if  len(auxOutput) > output:
-			output = len(auxOutput)
-	print(output)
+    for i in range(len(fruit_weight)-1):
+        if len(fruit_weight)-i <= output:
+            break
+        aux_output = []
+        for j in range(i, len(fruit_weight)):
+            if sum(aux_output) == c:
+                break
+            if (fruit_weight[j]+sum(aux_output) <= c):
+                aux_output.append(fruit_weight[j])
+            # print("J =",j,end = "\t")
+        if len(aux_output) > output:
+            output = len(aux_output)
+    print(output)
+
 
 if __name__ == '__main__':
-	main()
+    main()
