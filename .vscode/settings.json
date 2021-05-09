@@ -1,5 +1,5 @@
 {
-    "python.pythonPath": "/home/sebastian/.pyenv/versions/env-Kattis/bin/python",
+    "python.pythonPath": "env/bin/python",
     "python.testing.unittestArgs": [
         "-v",
         "-s",
@@ -10,5 +10,12 @@
     "python.testing.pytestEnabled": false,
     "python.testing.nosetestsEnabled": false,
     "python.testing.unittestEnabled": true,
-    "python.linting.enabled": true
+    "python.linting.enabled": true,
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {"source.organizeImports": true},
+    "python.linting.flake8Enabled": true,
+    "python.linting.flake8Args": ["--max-line-length=100"],
+    "python.formatting.autopep8Args": ["--max-line-length", "100", "--experimental"],
+    "python.linting.mypyEnabled": true,
+    "python.linting.banditEnabled": true
 }
