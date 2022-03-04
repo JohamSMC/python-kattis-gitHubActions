@@ -440,6 +440,17 @@ class TestExercises(unittest.TestCase):
              'Zoe', "Frederick", "Annabelle", "Joey", "Ben", "SET 3", "John", "Fran", "Cece",
              "Stan", "Bill", ''])
 
+    def test_spiralMatrix(self):
+        output = subprocess.check_output(
+            "python problems/spiralMatrix.py < inputs/inputSpiralMatrix1.txt", shell=True)
+        self.assertEqual(str(output).split("'")[1].split("\\n")[
+                         0], "[1, 2, 3, 6, 9, 8, 7, 4, 5]")
+
+        output = subprocess.check_output(
+            "python problems/spiralMatrix.py < inputs/inputSpiralMatrix2.txt", shell=True)
+        self.assertEqual(str(output).split("'")[1].split("\\n")[0],
+                         "[1, 2, 3, 4, 8, 12, 11, 10, 9, 5, 6, 7]")
+
 
 if __name__ == "__main__":
     unittest.main()
